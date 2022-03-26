@@ -1,9 +1,3 @@
-function add(n1: number, n2: number) {
-  return n1 + n2;
+function even(n: number) {
+  return n % 2 === 0;
 }
-
-const number1 = 5;
-const number2 = 2.8;
-
-const sum = add(number1, number2);
-console.log('sum', sum);
